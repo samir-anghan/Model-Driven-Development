@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-r36EFVbEemMNM5hb23qfA" name="model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_-xUawFVbEemMNM5hb23qfA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_-sEHUFVbEemMNM5hb23qfA" name="Admin Class">
+    <region xmi:type="uml:Region" xmi:id="_-sF8gFVbEemMNM5hb23qfA" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_WMVTsFVcEemMNM5hb23qfA" source="_D50loFVcEemMNM5hb23qfA" target="_FB19oFVcEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_b89OgFVcEemMNM5hb23qfA" name="submit credentials" source="_FB19oFVcEemMNM5hb23qfA" target="_HjQxgFVcEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_dqbc8FVcEemMNM5hb23qfA" name="forget password" source="_HjQxgFVcEemMNM5hb23qfA" target="_KI8aUFVcEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_ew9AIFVcEemMNM5hb23qfA" name="retrieve password" source="_KI8aUFVcEemMNM5hb23qfA" target="_FB19oFVcEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_jo_GEFVcEemMNM5hb23qfA" name="credentials=false" source="_HjQxgFVcEemMNM5hb23qfA" target="_FB19oFVcEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_pGt6EFVcEemMNM5hb23qfA" name="credentials=true" source="_HjQxgFVcEemMNM5hb23qfA" target="_M2tBEFVcEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_qbNn0FVcEemMNM5hb23qfA" source="_M2tBEFVcEemMNM5hb23qfA" target="_QWQ4MFVcEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_rE76QFVcEemMNM5hb23qfA" source="_QWQ4MFVcEemMNM5hb23qfA" target="_S7w60FVcEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_C8EHcFVdEemMNM5hb23qfA" name="add/delete user" source="_M2tBEFVcEemMNM5hb23qfA" target="_M2tBEFVcEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_2LZmcFVeEemMNM5hb23qfA" name="add/delete book" source="_M2tBEFVcEemMNM5hb23qfA" target="_M2tBEFVcEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_W-dM0FVfEemMNM5hb23qfA" name="modifybook" source="_M2tBEFVcEemMNM5hb23qfA" target="_M2tBEFVcEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_g86aAFVfEemMNM5hb23qfA" name="showBorrowedBooks" source="_M2tBEFVcEemMNM5hb23qfA" target="_M2tBEFVcEemMNM5hb23qfA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_D50loFVcEemMNM5hb23qfA" name="Initial1"/>
+      <subvertex xmi:type="uml:State" xmi:id="_FB19oFVcEemMNM5hb23qfA" name="LoggingIn"/>
+      <subvertex xmi:type="uml:State" xmi:id="_HjQxgFVcEemMNM5hb23qfA" name="Validation"/>
+      <subvertex xmi:type="uml:State" xmi:id="_KI8aUFVcEemMNM5hb23qfA" name="GetUserCredentials"/>
+      <subvertex xmi:type="uml:State" xmi:id="_M2tBEFVcEemMNM5hb23qfA" name="LoggedIn"/>
+      <subvertex xmi:type="uml:State" xmi:id="_QWQ4MFVcEemMNM5hb23qfA" name="Closed"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_S7w60FVcEemMNM5hb23qfA" name="FinalState1"/>
+    </region>
+  </packagedElement>
+</uml:Model>

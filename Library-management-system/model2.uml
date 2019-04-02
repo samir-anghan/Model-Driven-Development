@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_4KqBEFVhEemMNM5hb23qfA" name="model2">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_4O_ugFVhEemMNM5hb23qfA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_4K5RoFVhEemMNM5hb23qfA" name="User Class">
+    <region xmi:type="uml:Region" xmi:id="_4K6fwFVhEemMNM5hb23qfA" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_pjxawFViEemMNM5hb23qfA" source="_SB66AFViEemMNM5hb23qfA" target="_TWZZoFViEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_qvdx0FViEemMNM5hb23qfA" name="issueBook()" source="_TWZZoFViEemMNM5hb23qfA" target="_TmqDMFViEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_rZatwFViEemMNM5hb23qfA" name="returnBook() &amp; returnDate>=today" source="_TmqDMFViEemMNM5hb23qfA" target="_T0IegFViEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_s7NQoFViEemMNM5hb23qfA" name="penalty=0" source="_T0IegFViEemMNM5hb23qfA" target="_UCBJgFViEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_uC6fkFViEemMNM5hb23qfA" name="penalty=0" source="_UnRysFViEemMNM5hb23qfA" target="_UCBJgFViEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_xDLyoFViEemMNM5hb23qfA" source="_UCBJgFViEemMNM5hb23qfA" target="_okDDIFViEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_47mgYFViEemMNM5hb23qfA" name="returnBook() &amp; returnDate&lt;today" source="_TmqDMFViEemMNM5hb23qfA" target="_UcQOcFViEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_5vEksFViEemMNM5hb23qfA" name="calculatePenalty()" source="_UcQOcFViEemMNM5hb23qfA" target="_UnRysFViEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_7Z2rgFViEemMNM5hb23qfA" name="penalty calculated per day" source="_UQki4FViEemMNM5hb23qfA" target="_UcQOcFViEemMNM5hb23qfA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_9kO4YFViEemMNM5hb23qfA" name="update penalty" source="_UcQOcFViEemMNM5hb23qfA" target="_UQki4FViEemMNM5hb23qfA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_SB66AFViEemMNM5hb23qfA" name="Initial1"/>
+      <subvertex xmi:type="uml:State" xmi:id="_TWZZoFViEemMNM5hb23qfA" name="LoggedIn"/>
+      <subvertex xmi:type="uml:State" xmi:id="_TmqDMFViEemMNM5hb23qfA" name="BookLoanedUser"/>
+      <subvertex xmi:type="uml:State" xmi:id="_T0IegFViEemMNM5hb23qfA" name="NoPenalty"/>
+      <subvertex xmi:type="uml:State" xmi:id="_UCBJgFViEemMNM5hb23qfA" name="NoDues"/>
+      <subvertex xmi:type="uml:State" xmi:id="_UQki4FViEemMNM5hb23qfA" name="Increase Penalty"/>
+      <subvertex xmi:type="uml:State" xmi:id="_UcQOcFViEemMNM5hb23qfA" name="Penalty"/>
+      <subvertex xmi:type="uml:State" xmi:id="_UnRysFViEemMNM5hb23qfA" name="ReadyToPayPenalty"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_okDDIFViEemMNM5hb23qfA" name="FinalState1"/>
+    </region>
+  </packagedElement>
+</uml:Model>
