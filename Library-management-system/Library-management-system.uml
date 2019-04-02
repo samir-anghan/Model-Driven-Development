@@ -40,12 +40,6 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_6LjOIFTaEemDKYvvGmwxpA" name="answer" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_QUnaMFTfEemPa8wIeiKGOg" name="newAdded" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_XhaioFTgEemPa8wIeiKGOg" name="oneMore" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_C5vtUFTbEemDKYvvGmwxpA" name="login"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_Fm0XkFTbEemDKYvvGmwxpA" name="logout"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_GwdgMFTbEemDKYvvGmwxpA" name="forgotPassword"/>

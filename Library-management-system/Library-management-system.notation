@@ -92,14 +92,6 @@
               <element xmi:type="uml:Property" href="Library-management-system.uml#_6LjOIFTaEemDKYvvGmwxpA"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_6Lp70VTaEemDKYvvGmwxpA"/>
             </children>
-            <children xmi:type="notation:Shape" xmi:id="_QU0OgFTfEemPa8wIeiKGOg" type="Property_ClassAttributeLabel">
-              <element xmi:type="uml:Property" href="Library-management-system.uml#_QUnaMFTfEemPa8wIeiKGOg"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_QU0OgVTfEemPa8wIeiKGOg"/>
-            </children>
-            <children xmi:type="notation:Shape" xmi:id="_Xhn-AFTgEemPa8wIeiKGOg" type="Property_ClassAttributeLabel">
-              <element xmi:type="uml:Property" href="Library-management-system.uml#_XhaioFTgEemPa8wIeiKGOg"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_Xhn-AVTgEemPa8wIeiKGOg"/>
-            </children>
             <styles xmi:type="notation:TitleStyle" xmi:id="_SGQJMVTaEemDKYvvGmwxpA"/>
             <styles xmi:type="notation:SortingStyle" xmi:id="_SGQJMlTaEemDKYvvGmwxpA"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_SGQJM1TaEemDKYvvGmwxpA"/>
